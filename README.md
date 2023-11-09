@@ -39,7 +39,7 @@ Run the script from the command line, providing the necessary arguments for the 
 #### Check Roaming Status
 
 ```sh
-python CamaraRoamingManager.py --phone +1234567890
+python3 CamaraRoamingManager.py --phone +1234567890
 ```
 
 #### Create a New Device Status Subscription
@@ -51,19 +51,19 @@ python CamaraRoamingManager.py --create --subscription_detail '{"type":"org.cama
 ### List All Device Status Subscriptions
 
 ```sh
-python CamaraRoamingManager.py --list
+python3 CamaraRoamingManager.py --list
 ```
 
 #### Retrieve a Specific Device Status Subscription
 
 ```sh
-python CamaraRoamingManager.py --retrieve "subscription_id_here"
+python3 CamaraRoamingManager.py --retrieve "subscription_id_here"
 ```
 
 #### Delete a Specific Device Status Subscription
 
 ```sh
-python CamaraRoamingManager.py --delete "subscription_id_here"
+python3 CamaraRoamingManager.py --delete "subscription_id_here"
 ```
 
 ### Support
